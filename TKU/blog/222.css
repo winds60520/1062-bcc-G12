@@ -1,0 +1,22 @@
+#blog {
+    width: 80%;
+    margin: 10px auto;
+    border: 20px solid #c4c4c4;
+    padding: 20px;
+}
+
+#blog .date {
+    margin: 10px auto;
+    color: brown;
+}
+
+#blog .quote {
+    border-left: 5px solid #342c2c;
+    padding: 5px;
+}
+
+#blog h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: deepskyblue;
+}
