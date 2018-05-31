@@ -1,13 +1,13 @@
-#boom{
+#boom {
     border: 15px solid purple;
     text-align: center;
 }
 
-#boom input{
+#boom input {
     margin: 10px;
 }
 
-#bombs img{
+#bombs img {
     width: 25px;
     margin: 5px 5px 10px 5px;
 }

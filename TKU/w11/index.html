@@ -47,10 +47,10 @@
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">TKU<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../blog/blog.html">W5-Blog</a></li>
-                                    <li><a href="../tku60/tku60.html">W8-淡江大戲</a></li>
-                                    <li><a href="../w5/image.html">W5-Image Gallery</a></li>
-                                    <li><a href="../w11/index.html">W11-終極密碼</a></li>
+                                    <li><a href="/1062-bcc-G12/TKU/blog/blog.html">W5-Blog</a></li>
+                                    <li><a href="/1062-bcc-G12/TKU/tku60/tku60.html">W8-淡江大戲</a></li>
+                                    <li><a href="/1062-bcc-G12/TKU/w5/image.html">W5-Image Gallery</a></li>
+                                    <li><a href="/1062-bcc-G12/TKU/w11/index.html">W11-終極密碼</a></li>
                                 </ul>
                             </li>
                             <li><a href="services.html">Services</a></li>
@@ -62,21 +62,23 @@
                 </div>
             </div>
         </header>
-        <img src="img/title1.gif">
-        <form>
-            經輸入(1-99)其中一個數字來開始終極密碼:<br />
-            <input id="code" type="number" min="1" max="99" value="" autofocus>
-            <input type="button" value="Guess" onclick="doGuess()">
-            <input type="button" value="Restart" onclick="restart()">
-            <div id="bombs">
-                <img name="img1" src="img/bomber.png">
-                <img name="img2" src="img/bomber.png">
-                <img name="img3" src="img/bomber.png">
-                <img name="img4" src="img/bomber.png">
-                <img name="img5" src="img/bomber.png">
-                <img name="img6" src="img/bomber.png">
-            </div>
-        </form>
+        <div id="boom">
+            <img src="img/title1.gif">
+            <form>
+                經輸入(1-99)其中一個數字來開始終極密碼:<br />
+                <input id="code" type="number" min="1" max="99" value="" autofocus>
+                <input type="button" value="Guess" onclick="doGuess()">
+                <input type="button" value="Restart" onclick="restart()">
+                <div id="bombs">
+                    <img name="img1" src="img/bomber.png">
+                    <img name="img2" src="img/bomber.png">
+                    <img name="img3" src="img/bomber.png">
+                    <img name="img4" src="img/bomber.png">
+                    <img name="img5" src="img/bomber.png">
+                    <img name="img6" src="img/bomber.png">
+                </div>
+            </form>
+        </div>
         <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
         <!-- javascript
     ================================================== -->
