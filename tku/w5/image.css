@@ -1,0 +1,17 @@
+img {
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+}
+
+p {
+    font-family: monospace;
+    font-size: 40;
+    text-transform: uppercase;
+    color: fuchsia;
+    margin: 1.66%;
+    width: 30%;
+    font-weight: 800;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #531d25;
+}
